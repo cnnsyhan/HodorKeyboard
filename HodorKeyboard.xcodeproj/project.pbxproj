@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83B577262558AB1400254F0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B577252558AB1400254F0A /* AppDelegate.swift */; };
+		83B577282558AB1400254F0A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B577272558AB1400254F0A /* SceneDelegate.swift */; };
+		83B5772A2558AB1400254F0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B577292558AB1400254F0A /* ViewController.swift */; };
+		83B5772D2558AB1400254F0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83B5772B2558AB1400254F0A /* Main.storyboard */; };
+		83B5772F2558AB3700254F0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83B5772E2558AB3700254F0A /* Assets.xcassets */; };
+		83B577322558AB3700254F0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83B577302558AB3700254F0A /* LaunchScreen.storyboard */; };
+		83B5773D2558AB3A00254F0A /* HodorKeyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B5773C2558AB3A00254F0A /* HodorKeyboardTests.swift */; };
+		83B577482558AB3A00254F0A /* HodorKeyboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B577472558AB3A00254F0A /* HodorKeyboardUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83B577392558AB3A00254F0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83B5771A2558AB1300254F0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83B577212558AB1400254F0A;
+			remoteInfo = HodorKeyboard;
+		};
+		83B577442558AB3A00254F0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83B5771A2558AB1300254F0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83B577212558AB1400254F0A;
+			remoteInfo = HodorKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		83B577222558AB1400254F0A /* HodorKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HodorKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83B577252558AB1400254F0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83B577272558AB1400254F0A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		83B577292558AB1400254F0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		83B5772C2558AB1400254F0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83B5772E2558AB3700254F0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83B577312558AB3700254F0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83B577332558AB3700254F0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83B577382558AB3A00254F0A /* HodorKeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HodorKeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83B5773C2558AB3A00254F0A /* HodorKeyboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HodorKeyboardTests.swift; sourceTree = "<group>"; };
+		83B5773E2558AB3A00254F0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83B577432558AB3A00254F0A /* HodorKeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HodorKeyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83B577472558AB3A00254F0A /* HodorKeyboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HodorKeyboardUITests.swift; sourceTree = "<group>"; };
+		83B577492558AB3A00254F0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83B5771F2558AB1400254F0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83B577352558AB3A00254F0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83B577402558AB3A00254F0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83B577192558AB1300254F0A = {
+			isa = PBXGroup;
+			children = (
+				83B577242558AB1400254F0A /* HodorKeyboard */,
+				83B5773B2558AB3A00254F0A /* HodorKeyboardTests */,
+				83B577462558AB3A00254F0A /* HodorKeyboardUITests */,
+				83B577232558AB1400254F0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83B577232558AB1400254F0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83B577222558AB1400254F0A /* HodorKeyboard.app */,
+				83B577382558AB3A00254F0A /* HodorKeyboardTests.xctest */,
+				83B577432558AB3A00254F0A /* HodorKeyboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83B577242558AB1400254F0A /* HodorKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				83B577252558AB1400254F0A /* AppDelegate.swift */,
+				83B577272558AB1400254F0A /* SceneDelegate.swift */,
+				83B577292558AB1400254F0A /* ViewController.swift */,
+				83B5772B2558AB1400254F0A /* Main.storyboard */,
+				83B5772E2558AB3700254F0A /* Assets.xcassets */,
+				83B577302558AB3700254F0A /* LaunchScreen.storyboard */,
+				83B577332558AB3700254F0A /* Info.plist */,
+			);
+			path = HodorKeyboard;
+			sourceTree = "<group>";
+		};
+		83B5773B2558AB3A00254F0A /* HodorKeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				83B5773C2558AB3A00254F0A /* HodorKeyboardTests.swift */,
+				83B5773E2558AB3A00254F0A /* Info.plist */,
+			);
+			path = HodorKeyboardTests;
+			sourceTree = "<group>";
+		};
+		83B577462558AB3A00254F0A /* HodorKeyboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				83B577472558AB3A00254F0A /* HodorKeyboardUITests.swift */,
+				83B577492558AB3A00254F0A /* Info.plist */,
+			);
+			path = HodorKeyboardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83B577212558AB1400254F0A /* HodorKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83B5774C2558AB3A00254F0A /* Build configuration list for PBXNativeTarget "HodorKeyboard" */;
+			buildPhases = (
+				83B5771E2558AB1400254F0A /* Sources */,
+				83B5771F2558AB1400254F0A /* Frameworks */,
+				83B577202558AB1400254F0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HodorKeyboard;
+			productName = HodorKeyboard;
+			productReference = 83B577222558AB1400254F0A /* HodorKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83B577372558AB3A00254F0A /* HodorKeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83B5774F2558AB3A00254F0A /* Build configuration list for PBXNativeTarget "HodorKeyboardTests" */;
+			buildPhases = (
+				83B577342558AB3A00254F0A /* Sources */,
+				83B577352558AB3A00254F0A /* Frameworks */,
+				83B577362558AB3A00254F0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83B5773A2558AB3A00254F0A /* PBXTargetDependency */,
+			);
+			name = HodorKeyboardTests;
+			productName = HodorKeyboardTests;
+			productReference = 83B577382558AB3A00254F0A /* HodorKeyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		83B577422558AB3A00254F0A /* HodorKeyboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83B577522558AB3A00254F0A /* Build configuration list for PBXNativeTarget "HodorKeyboardUITests" */;
+			buildPhases = (
+				83B5773F2558AB3A00254F0A /* Sources */,
+				83B577402558AB3A00254F0A /* Frameworks */,
+				83B577412558AB3A00254F0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83B577452558AB3A00254F0A /* PBXTargetDependency */,
+			);
+			name = HodorKeyboardUITests;
+			productName = HodorKeyboardUITests;
+			productReference = 83B577432558AB3A00254F0A /* HodorKeyboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83B5771A2558AB1300254F0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					83B577212558AB1400254F0A = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					83B577372558AB3A00254F0A = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 83B577212558AB1400254F0A;
+					};
+					83B577422558AB3A00254F0A = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 83B577212558AB1400254F0A;
+					};
+				};
+			};
+			buildConfigurationList = 83B5771D2558AB1300254F0A /* Build configuration list for PBXProject "HodorKeyboard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83B577192558AB1300254F0A;
+			productRefGroup = 83B577232558AB1400254F0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83B577212558AB1400254F0A /* HodorKeyboard */,
+				83B577372558AB3A00254F0A /* HodorKeyboardTests */,
+				83B577422558AB3A00254F0A /* HodorKeyboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83B577202558AB1400254F0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83B577322558AB3700254F0A /* LaunchScreen.storyboard in Resources */,
+				83B5772F2558AB3700254F0A /* Assets.xcassets in Resources */,
+				83B5772D2558AB1400254F0A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83B577362558AB3A00254F0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83B577412558AB3A00254F0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83B5771E2558AB1400254F0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83B5772A2558AB1400254F0A /* ViewController.swift in Sources */,
+				83B577262558AB1400254F0A /* AppDelegate.swift in Sources */,
+				83B577282558AB1400254F0A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83B577342558AB3A00254F0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83B5773D2558AB3A00254F0A /* HodorKeyboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83B5773F2558AB3A00254F0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83B577482558AB3A00254F0A /* HodorKeyboardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83B5773A2558AB3A00254F0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83B577212558AB1400254F0A /* HodorKeyboard */;
+			targetProxy = 83B577392558AB3A00254F0A /* PBXContainerItemProxy */;
+		};
+		83B577452558AB3A00254F0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83B577212558AB1400254F0A /* HodorKeyboard */;
+			targetProxy = 83B577442558AB3A00254F0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83B5772B2558AB1400254F0A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83B5772C2558AB1400254F0A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		83B577302558AB3700254F0A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83B577312558AB3700254F0A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83B5774A2558AB3A00254F0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		83B5774B2558AB3A00254F0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83B5774D2558AB3A00254F0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HodorKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.canseyhan.HodorKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83B5774E2558AB3A00254F0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HodorKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.canseyhan.HodorKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		83B577502558AB3A00254F0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HodorKeyboardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.canseyhan.HodorKeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HodorKeyboard.app/HodorKeyboard";
+			};
+			name = Debug;
+		};
+		83B577512558AB3A00254F0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HodorKeyboardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.canseyhan.HodorKeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HodorKeyboard.app/HodorKeyboard";
+			};
+			name = Release;
+		};
+		83B577532558AB3A00254F0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HodorKeyboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.canseyhan.HodorKeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HodorKeyboard;
+			};
+			name = Debug;
+		};
+		83B577542558AB3A00254F0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HodorKeyboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.canseyhan.HodorKeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HodorKeyboard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83B5771D2558AB1300254F0A /* Build configuration list for PBXProject "HodorKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83B5774A2558AB3A00254F0A /* Debug */,
+				83B5774B2558AB3A00254F0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83B5774C2558AB3A00254F0A /* Build configuration list for PBXNativeTarget "HodorKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83B5774D2558AB3A00254F0A /* Debug */,
+				83B5774E2558AB3A00254F0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83B5774F2558AB3A00254F0A /* Build configuration list for PBXNativeTarget "HodorKeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83B577502558AB3A00254F0A /* Debug */,
+				83B577512558AB3A00254F0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83B577522558AB3A00254F0A /* Build configuration list for PBXNativeTarget "HodorKeyboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83B577532558AB3A00254F0A /* Debug */,
+				83B577542558AB3A00254F0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83B5771A2558AB1300254F0A /* Project object */;
+}
